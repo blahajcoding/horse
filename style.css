@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    all: unset;
+    font-size: 48px;
+}
+a:active {
+    font-size: 64px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#overlay {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: none;
+}
+
+#overlay.jumpscare {
+    display: block;
+}
