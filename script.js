@@ -1,5 +1,4 @@
 var snd = new Audio("assets/neigh.mp3");
-var debug = document.getElementById("debug");
 var count = 0;
 function neigh() {
     if (count == 66) {
@@ -30,5 +29,4 @@ function neigh() {
 
 function counterIncrement() {
     count == count++
-    debug.innerHTML = "counter: " + count
 }
